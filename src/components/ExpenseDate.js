@@ -1,3 +1,5 @@
+import React from "react";
+
 import "./ExpenseDate.css";
 
 function ExpenseDate(props) {
@@ -13,4 +15,5 @@ function ExpenseDate(props) {
     </div>
   );
 }
+
 export default ExpenseDate;
