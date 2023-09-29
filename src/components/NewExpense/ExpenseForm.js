@@ -40,7 +40,9 @@ const ExpenseForm = () => {
     // });
   };
 
-  const submitHandler = () => {};
+  const submitHandler = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <form onSubmit={submitHandler}>
