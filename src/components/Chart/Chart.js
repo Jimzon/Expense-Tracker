@@ -1,7 +1,10 @@
 import React from "react";
 
 import ChartBar from "./ChartBar";
+import "./ChartBar.css";
 
-const Chart = (props) => {};
+const Chart = (props) => {
+  return <div></div>;
+};
 
 export default Chart;
